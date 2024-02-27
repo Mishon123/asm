@@ -1,0 +1,32 @@
+{
+    "categories": [
+      {"id": 1, "name": "Electronics"},
+      {"id": 2, "name": "Clothing"},
+      {"id": 3, "name": "Books"},
+      {"id": 4, "name": "Home Decor"}
+    ],
+    "products": [
+      {"id": 1, "name": "Laptop", "cate_id": 1, "price": 1000, "detail": "High-performance laptop", "image": "laptop.jpg"},
+      {"id": 2, "name": "T-shirt", "cate_id": 2, "price": 20, "detail": "Cotton T-shirt", "image": "tshirt.jpg"},
+      {"id": 3, "name": "The Great Gatsby", "cate_id": 3, "price": 15, "detail": "Classic novel", "image": "gatsby.jpg"},
+      {"id": 4, "name": "Sofa", "cate_id": 4, "price": 500, "detail": "Comfortable sofa", "image": "sofa.jpg"},
+      {"id": 5, "name": "Smartphone", "cate_id": 1, "price": 800, "detail": "Latest smartphone model", "image": "smartphone.jpg"},
+      {"id": 6, "name": "Jeans", "cate_id": 2, "price": 50, "detail": "Designer jeans", "image": "jeans.jpg"},
+      {"id": 7, "name": "Harry Potter", "cate_id": 3, "price": 20, "detail": "Best-selling fantasy novel series", "image": "harrypotter.jpg"},
+      {"id": 8, "name": "Coffee Table", "cate_id": 4, "price": 200, "detail": "Modern coffee table", "image": "coffeetable.jpg"}
+    ],
+    "users": [
+      {"id": 1, "username": "john_doe", "password": "hashedpassword1", "email": "john@example.com", "role": "member"},
+      {"id": 2, "username": "jane_smith", "password": "hashedpassword2", "email": "jane@example.com", "role": "admin"}
+    ],
+    "orders": [
+      {"id": 1, "user_id": 1, "total_price": 2030, "created_date": "2024-02-27", "status": "Pending"},
+      {"id": 2, "user_id": 2, "total_price": 110, "created_date": "2024-02-26", "status": "Completed"}
+    ],
+    "order_details": [
+      {"order_id": 1, "product_id": 1, "quantity": 2, "unit_price": 1000},
+      {"order_id": 1, "product_id": 3, "quantity": 1, "unit_price": 15},
+      {"order_id": 2, "product_id": 2, "quantity": 3, "unit_price": 20}
+    ]
+  }
+  
